@@ -19,11 +19,12 @@ void recursion(int n, int m)
     {
         System.Console.Write($" {n}");
     }
-    
+
     recursion(n + 1, m);
 }
 
 int n = Prompt("Enter N > ");
 int m = Prompt("Enter M > ");
 recursion(n, m);
+
 System.Console.WriteLine();
