@@ -18,9 +18,10 @@ void recursion(int n, int m)
     if (n % 2 == 0)
     {
         System.Console.Write($" {n}");
+        recursion(n + 2, m);
     }
-
-    recursion(n + 1, m);
+    else recursion(n + 1, m);
+    
 }
 
 int n = Prompt("Enter N > ");
